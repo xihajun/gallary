@@ -1,0 +1,44 @@
+# site settings
+title: Tahsin Tariq
+subtitle: .github.io
+email: tahsinbanna@gmail.com
+description: And This is a comprehensive list of all my shenanigans
+baseurl: "" # the subpath of your site, e.g. /blog
+url: 
+author: Tahsin Tariq
+street_address: Road - 27, Dhanmondi
+city: Dhaka
+state: 
+zip_code: 
+country: Bangladesh
+phone: +8801521443393
+
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 10
+
+# port: 4040
+livereload: true
+
+# social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/TahsinTariq
+instagram_url: hhttps://www.instagram.com/tahsin_tariq/
+linkedin_url: 
+pinterest_url:
+slack_url:
+openprocessing_url: https://www.openprocessing.org/user/230948/
+
+# build settings
+markdown: kramdown
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+sass:
+  style: compressed
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
